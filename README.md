@@ -52,6 +52,25 @@ mkdir VG_100K
 Download Visual Genome images from the [official page](https://visualgenome.org/api/v0/api_home.html). Unzip all images (part 1 and part 2) into `VG_100K/`. There should be a total of 108249 files.
 
 
+## Pretrained Weights
+
+### GVQA
+| Backbone  | SCG  | RelTransformer | url                                                          |
+| --------- | ---- | -------------- | ------------------------------------------------------------ |
+| ResNet-50 | √    | ×              | model\|logs\|csv                                             |
+| ResNet-50 | √    | √              | model\|logs\|csv                                 |
+| ViT-B/16  | √    | ×              | model\|logs\|csv                                 |
+| ViT-B/16  | √    | √              | [model]()\|[logs](https://drive.google.com/file/d/1u005ESmiFrGdY_0V3_OPpZFBI9qg91O_/view?usp=sharing)\|[csv](https://drive.google.com/file/d/1LfYRQbB78qmPgHlVli3dx60UzGpA2cAn/view?usp=sharing) |
+
+### VG8K
+| Backbone  | SCG  | RelTransformer | url                                                          |
+| --------- | ---- | -------------- | ------------------------------------------------------------ |
+| ResNet-50 | √    | ×              | model\|logs\|csv                                             |
+| ResNet-50 | √    | √              | model\|logs\|csv                                             |
+| ViT-B/16  | √    | ×              | model\|logs\|csv                                             |
+| ViT-B/16  | √    | √              | [model]()\|[logs](https://drive.google.com/file/d/1V1G7OPjSv8roh7qeM7pUcQfDSU28ujBr/view?usp=sharing)\|[csv](https://drive.google.com/file/d/1Az_ozAypYFBIo4SMp5tKZ_CPugyHZMot/view?usp=sharing) |
+
+
 ### GVQA
 Train our relationship network using a resnet50 backbone, run
 ```
