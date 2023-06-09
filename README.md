@@ -5,12 +5,8 @@
 
 ![image](architecture.jpg)
 
-This is a Pytorch implementation for [RelTransformer](https://arxiv.org/abs/2104.11934)
 
-
-The implementation for Evaluating on VG200 can be found [here](https://github.com/junchen14/RelTransformer_GeneralVRD)
-
-Requirements 
+## Requirements 
 
 ```
 conda env create -f reltransformer_env.yml
