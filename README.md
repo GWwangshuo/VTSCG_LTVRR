@@ -142,12 +142,15 @@ python -m torch.distributed.launch \
 ```
 
 
-To test the trained networks, run
+## To test the trained networks, run
 ```
-python tools/test_net_reltransformer.py --dataset vg8k --cfg configs/vg8k/e2e_relcnn_VGG16_8_epochs_vg8k_reltransformer.yaml --load_ckpt  model-path  --use_gt_boxes --use_gt_labels --do_val
-```
-To test the trained model with WCE loss function, run
-```
-python tools/test_net_reltransformer_wce.py --dataset vg8k --cfg configs/vg8k/e2e_relcnn_VGG16_8_epochs_vg8k_reltransformer_wce.yaml --load_ckpt  model-path  --use_gt_boxes --use_gt_labels --do_val
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch \
+        --nproc_per_node=8 \
+        --use_env test.py \
+        --dataset vg8k \
+        --output_dir test \
+        --backbone_name CLIP_ViT_16 \
+        --batch_size 1 \
+        --resume exps/vit16_vg8k_SCG_WCE/checkpoint0004.pth
 ```
 
