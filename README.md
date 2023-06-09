@@ -11,6 +11,8 @@
 ```
 pip install -r requirements.txt
 pip install ./CLIP
+
+git clone https://github.com/fredzzhang/pocket.git
 pip install -e pocket
 ```
 
