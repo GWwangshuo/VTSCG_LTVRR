@@ -148,8 +148,8 @@ python -m torch.distributed.launch \
 
 ## To test the trained networks, run
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch \
-        --nproc_per_node=8 \
+python -m torch.distributed.launch \
+        --nproc_per_node=1 \
         --use_env test.py \
         --dataset vg8k \
         --output_dir test \
