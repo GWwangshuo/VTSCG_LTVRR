@@ -6,10 +6,12 @@
 ![image](architecture.jpg)
 
 
-## Requirements 
+## Install 
 
 ```
-conda env create -f reltransformer_env.yml
+pip install -r requirements.txt
+pip install ./CLIP
+pip install -e pocket
 ```
 
 ## Annotations
