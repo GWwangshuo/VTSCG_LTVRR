@@ -91,7 +91,7 @@ python -m torch.distributed.launch \
         --backbone_name CLIP_ViT_16 \
         --dataset gvqa \
         --batch_size 2 \
-        --output_dir nexps/vit16_gvqa_SCG_WCE
+        --output_dir exps/vit16_gvqa_SCG_WCE
 ```
 Train our relationship network using a resnet50 backbone and RelTransformer, run
 ```
@@ -114,7 +114,7 @@ python -m torch.distributed.launch \
         --dataset gvqa \
         --batch_size 2 \
         --rel-head \
-        --output_dir nexps/vit16_gvqa_SCG_WCE_RelTrans
+        --output_dir exps/vit16_gvqa_SCG_WCE_RelTrans
 ```
 
 
@@ -138,7 +138,7 @@ python -m torch.distributed.launch \
         --backbone_name CLIP_ViT_16 \
         --dataset vg8k \
         --batch_size 2 \
-        --output_dir nexps/vit16_vg8k_SCG_WCE
+        --output_dir exps/vit16_vg8k_SCG_WCE
 ```
 Train our relationship network using a resnet50 backbone and RelTransformer, run
 ```
@@ -161,7 +161,7 @@ python -m torch.distributed.launch \
         --dataset vg8k \
         --batch_size 2 \
         --rel-head \
-        --output_dir nexps/vit16_vg8k_SCG_WCE_RelTrans
+        --output_dir exps/vit16_vg8k_SCG_WCE_RelTrans
 ```
 
 
