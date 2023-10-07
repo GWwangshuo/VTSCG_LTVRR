@@ -26,10 +26,10 @@ mkdir data
 ```
 
 ### GQA
-Download it [here](https://drive.google.com/file/d/1ypmMOq2TkZyLNVuU9agHS7_QcsfTtBmn/view?usp=sharing). Unzip it under the data folder. You should see a `gvqa` folder unzipped there. It contains a seed folder called `seed0` that contains .json annotations that suit the dataloader used in this repo. Our annotations can be found in [here](https://drive.google.com/drive/folders/1ksiXGRB7QYjElXqhO_kpkWqcV4F4NQ4X?usp=sharing).
+Download it [here](https://drive.google.com/file/d/1ypmMOq2TkZyLNVuU9agHS7_QcsfTtBmn/view?usp=sharing) and our annotations [here](https://drive.google.com/drive/folders/1ksiXGRB7QYjElXqhO_kpkWqcV4F4NQ4X?usp=sharing). Unzip it under the data folder. You should see a `gvqa` folder unzipped there. It contains a seed folder called `seed0` that contains .json annotations that suit the dataloader used in this repo. 
 
 ### Visual Genome
-Download it [here](https://drive.google.com/file/d/1S8WNnK0zt8SDAGntkCiRDfJ8rZOR3Pgx/view?usp=sharing). Unzip it under the data folder. You should see a `vg8k` folder unzipped there. It contains a seed folder called `seed3` that contains .json annotations that suit the dataloader used in this repo. Our annotations can be found in [here](https://drive.google.com/drive/folders/1wHL0BXa89ExYE4SA5LEQ8e3y0kVPzdkU?usp=sharing).
+Download it [here](https://drive.google.com/file/d/1S8WNnK0zt8SDAGntkCiRDfJ8rZOR3Pgx/view?usp=sharing) and our annotations [here](https://drive.google.com/drive/folders/1wHL0BXa89ExYE4SA5LEQ8e3y0kVPzdkU?usp=sharing).. Unzip it under the data folder. You should see a `vg8k` folder unzipped there. It contains a seed folder called `seed3` that contains .json annotations that suit the dataloader used in this repo. 
 
 ## Images
 
