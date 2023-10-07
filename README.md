@@ -26,10 +26,10 @@ mkdir data
 ```
 
 ### GQA
-Download it [here](https://drive.google.com/file/d/1ypmMOq2TkZyLNVuU9agHS7_QcsfTtBmn/view?usp=sharing). Unzip it under the data folder. You should see a `gvqa` folder unzipped there. It contains a seed folder called `seed0` that contains .json annotations that suit the dataloader used in this repo.
+Download it [here](https://drive.google.com/file/d/1ypmMOq2TkZyLNVuU9agHS7_QcsfTtBmn/view?usp=sharing). Unzip it under the data folder. You should see a `gvqa` folder unzipped there. It contains a seed folder called `seed0` that contains .json annotations that suit the dataloader used in this repo. Our annotations can be found in [here](https://drive.google.com/drive/folders/1ksiXGRB7QYjElXqhO_kpkWqcV4F4NQ4X?usp=sharing).
 
 ### Visual Genome
-Download it [here](https://drive.google.com/file/d/1S8WNnK0zt8SDAGntkCiRDfJ8rZOR3Pgx/view?usp=sharing). Unzip it under the data folder. You should see a `vg8k` folder unzipped there. It contains a seed folder called `seed3` that contains .json annotations that suit the dataloader used in this repo.
+Download it [here](https://drive.google.com/file/d/1S8WNnK0zt8SDAGntkCiRDfJ8rZOR3Pgx/view?usp=sharing). Unzip it under the data folder. You should see a `vg8k` folder unzipped there. It contains a seed folder called `seed3` that contains .json annotations that suit the dataloader used in this repo. Our annotations can be found in [here](https://drive.google.com/drive/folders/1wHL0BXa89ExYE4SA5LEQ8e3y0kVPzdkU?usp=sharing).
 
 ## Images
 
@@ -40,7 +40,6 @@ Create a folder for all images:
 cd $ROOT/data/gvqa
 mkdir images
 ```
-Download GQA images from the [here](https://cs.stanford.edu/people/dorarad/gqa/download.html)
 
 ### Visual Genome
 Create a folder for all images:
@@ -49,7 +48,7 @@ Create a folder for all images:
 cd $ROOT/data/vg8k
 mkdir VG_100K
 ```
-Download Visual Genome images from the [official page](https://visualgenome.org/api/v0/api_home.html). Unzip all images (part 1 and part 2) into `VG_100K/`. There should be a total of 108249 files.
+Unzip all images (part 1 and part 2) into `VG_100K/`. There should be a total of 108249 files.
 
 
 ## Pretrained Weights
