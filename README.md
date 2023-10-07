@@ -26,10 +26,10 @@ mkdir data
 ```
 
 ### GQA
-Download it [here](https://drive.google.com/file/d/1ypmMOq2TkZyLNVuU9agHS7_QcsfTtBmn/view?usp=sharing). Unzip it under the data folder. You should see a `gvqa` folder unzipped there. It contains seed folder called `seed0` that contains .json annotations that suit the dataloader used in this repo.
+Download it [here](https://drive.google.com/file/d/1ypmMOq2TkZyLNVuU9agHS7_QcsfTtBmn/view?usp=sharing). Unzip it under the data folder. You should see a `gvqa` folder unzipped there. It contains a seed folder called `seed0` that contains .json annotations that suit the dataloader used in this repo.
 
 ### Visual Genome
-Download it [here](https://drive.google.com/file/d/1S8WNnK0zt8SDAGntkCiRDfJ8rZOR3Pgx/view?usp=sharing). Unzip it under the data folder. You should see a `vg8k` folder unzipped there. It contains seed folder called `seed3` that contains .json annotations that suit the dataloader used in this repo.
+Download it [here](https://drive.google.com/file/d/1S8WNnK0zt8SDAGntkCiRDfJ8rZOR3Pgx/view?usp=sharing). Unzip it under the data folder. You should see a `vg8k` folder unzipped there. It contains a seed folder called `seed3` that contains .json annotations that suit the dataloader used in this repo.
 
 ## Images
 
@@ -177,3 +177,13 @@ python -m torch.distributed.launch \
         --resume exps/vit16_vg8k_SCG_WCE/checkpoint0004.pth
 ```
 
+## Citing VTSCG_LTVRR
+If you find VTSCG_LTVRR useful in your research, please consider citing:
+```bibtex
+@article{xxxxx,
+  title={Vision Transformer-based Spatially Conditioned Graphs for Long Tail Visual Relationship Recognition CVPR 2023 LTVRR Challenge},
+  author={Chenyu Wang, Shuo Wang, Shenghua Gao},
+  journal={arXiv preprint arXiv},
+  year={2023}
+}
+```
