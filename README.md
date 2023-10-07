@@ -39,20 +39,20 @@ Download the dataset [here](https://drive.google.com/file/d/1S8WNnK0zt8SDAGntkCi
 ## Pretrained Weights
 
 ### GVQA
-| Backbone  | SCG  | RelTransformer | url                                                          |
-| --------- | ---- | -------------- | ------------------------------------------------------------ |
-| ResNet-50 | √    | ×              | model\|logs\|csv                                             |
-| ResNet-50 | √    | √              | model\|logs\|csv                                 |
-| ViT-B/16  | √    | ×              | model\|logs\|csv                                 |
-| ViT-B/16  | √    | √              | [model]()\|[logs](https://drive.google.com/file/d/1u005ESmiFrGdY_0V3_OPpZFBI9qg91O_/view?usp=sharing)\|[csv](https://drive.google.com/file/d/1LfYRQbB78qmPgHlVli3dx60UzGpA2cAn/view?usp=sharing) |
+| Backbone  |      SCG      | RelTransformer         | url                                              |
+| --------- | :------------:| :---------------------:| -------------------------------------------------|
+| ResNet-50 | &check;       | &cross;              | model\|logs\|csv                                 |
+| ResNet-50 | &check;       | &check;              | model\|logs\|csv                                 |
+| ViT-B/16  | &check;       | &cross;              | model\|logs\|csv                                 |
+| ViT-B/16  | &check;       | &check;              | [model]()\|[logs](https://drive.google.com/file/d/1u005ESmiFrGdY_0V3_OPpZFBI9qg91O_/view?usp=sharing)\|[csv](https://drive.google.com/file/d/1LfYRQbB78qmPgHlVli3dx60UzGpA2cAn/view?usp=sharing) |
 
 ### VG8K
-| Backbone  | SCG  | RelTransformer | url                                                          |
-| --------- | ---- | -------------- | ------------------------------------------------------------ |
-| ResNet-50 | √    | ×              | model\|logs\|csv                                             |
-| ResNet-50 | √    | √              | model\|logs\|csv                                             |
-| ViT-B/16  | √    | ×              | model\|logs\|csv                                             |
-| ViT-B/16  | √    | √              | [model]()\|[logs](https://drive.google.com/file/d/1V1G7OPjSv8roh7qeM7pUcQfDSU28ujBr/view?usp=sharing)\|[csv](https://drive.google.com/file/d/1Az_ozAypYFBIo4SMp5tKZ_CPugyHZMot/view?usp=sharing) |
+| Backbone  |     SCG       | RelTransformer   | url                                                          |
+| --------- | :------------:| :---------------:| ------------------------------------------------------------ |
+| ResNet-50 | &check;       | &cross;          | model\|logs\|csv                                             |
+| ResNet-50 | &check;       | &check;          | model\|logs\|csv                                             |
+| ViT-B/16  | &check;       | &cross;          | model\|logs\|csv                                             |
+| ViT-B/16  | &check;       | &check;          | [model]()\|[logs](https://drive.google.com/file/d/1V1G7OPjSv8roh7qeM7pUcQfDSU28ujBr/view?usp=sharing)\|[csv](https://drive.google.com/file/d/1Az_ozAypYFBIo4SMp5tKZ_CPugyHZMot/view?usp=sharing) |
 
 
 ### GVQA
