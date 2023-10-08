@@ -52,7 +52,7 @@ Download the dataset [here](https://drive.google.com/file/d/1S8WNnK0zt8SDAGntkCi
 | ResNet-50 | &check;       | &cross;          | model\|logs\|csv                                             |
 | ResNet-50 | &check;       | &check;          | model\|logs\|csv                                             |
 | ViT-B/16  | &check;       | &cross;          | model\|logs\|csv                                             |
-| ViT-B/16  | &check;       | &check;          | [model](https://drive.google.com/file/d/1KxTTwcfalqehFmfjCPQps1cyVdZIEjPf/view?usp=sharing)\|[logs](https://drive.google.com/file/d/1V1G7OPjSv8roh7qeM7pUcQfDSU28ujBr/view?usp=sharing)\|[csv](https://drive.google.com/file/d/1Az_ozAypYFBIo4SMp5tKZ_CPugyHZMot/view?usp=sharing) |
+| ViT-B/16  | &check;       | &check;          | [model](https://drive.google.com/file/d/13dWBnID0AR1mG7XWZcaSjalWUplCL-hK/view?usp=sharing)\|[logs](https://drive.google.com/file/d/1V1G7OPjSv8roh7qeM7pUcQfDSU28ujBr/view?usp=sharing)\|[csv](https://drive.google.com/file/d/1Az_ozAypYFBIo4SMp5tKZ_CPugyHZMot/view?usp=sharing) |
 
 
 ### GVQA
